@@ -1,0 +1,46 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 151, 142);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+span{
+    font-weight: bold;
+    padding: 16px;
+    font-size: 2em;
+}
+input{
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 16px;
+    margin: auto;
+    border: none;
+    width: 90%;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+button{
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 1.5em;
+    margin: 0px 16px 16px 16px;
+    padding: 16px;
+}
+button:hover{
+    background-color: rgb(1, 202, 1);
+}

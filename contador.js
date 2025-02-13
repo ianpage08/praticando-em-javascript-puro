@@ -20,4 +20,3 @@ zerar.addEventListener('click',function(){
     contagemAtual = 0
     res.innerHTML = contagemAtual
 })
-document.querySelectorAll

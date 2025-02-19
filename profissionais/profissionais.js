@@ -38,7 +38,7 @@ let começo = 0
 
 
 window.addEventListener('DOMContentLoaded', function(){
-    // criei uma constante e usei o cuurentItem para poder acessar os dados da constante
+    // criei uma constante e usei o a varialvel começo para poder acessar os dados da constante
     const item = prof[começo];
     nomes.innerHTML = item.nome
     imagem.src = item.img
@@ -67,7 +67,7 @@ btnFrente.addEventListener('click',function(){
 // botão para voltar 
 btnVoltar.addEventListener('click',function(){
     começo--
-    if (começo = 0){
+    if (começo < 0){
         começo = prof.length - 1
     }
     mostrarprofissional(começo);
